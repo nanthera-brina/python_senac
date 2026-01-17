@@ -1,0 +1,15 @@
+AULA 1
+17/01/2026
+
+- Controle de versão: venv (ambiente virtual) - isola projetos com versões diferentes;
+- VS code: criar uma pasta > new terminal > "python -m venv venv"
+- Exercícios:...
+
+
+AULA DE POO em Python
+
+- Organiza, estrutura o sistema;
+- Cada objeto é uma entidade;
+- Cada objeto tem atributos (características: ex. nome, cor, idade) e métodos (o que ele sabe fazer: ex. andar, atacar, apresentar);
+
+
