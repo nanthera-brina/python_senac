@@ -25,7 +25,7 @@ p5 = Pessoa("Mateus", 30, 1.82)
 # Criar um objeto novo a partir da classe já construída
 
 nome = input("Digite o nome do seu objeto: ")
-idade = input("Digite a idade do seu objeto: ")
+idade = int(input("Digite a idade do seu objeto: "))
 altura = input("Digite a altura do seu objeto: ")
-p6 = Pessoa(nome, idade, altura)
-p6.apresentar()
+p6 = Pessoa("nome", idade, altura)
+p6.apresentar()  #repare no ponto entre o objeto e a função
