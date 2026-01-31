@@ -6,10 +6,47 @@ AULA 1
 - Exercícios:...
 
 
-AULA DE POO em Python
+AULA DE POO em Python:
 
 - Organiza, estrutura o sistema;
 - Cada objeto é uma entidade;
 - Cada objeto tem atributos (características: ex. nome, cor, idade) e métodos (o que ele sabe fazer: ex. andar, atacar, apresentar);
+
+A POO ajuda em
+⦁	reaproveita a lógica;
+⦁	separa as responsabilidades;
+⦁	facilita a manutenção.
+
+Criando uma Classe:
+⦁	A Classe é como o molde para criar objetos;
+⦁	Para isso, usa o "self"
+ 	- é uma referência ao próprio objeto.
+
+Criando Objetos
+⦁	É uma instância real da classe;
+⦁	Se a Classe é um molde, o objeto é o produto final;
+⦁	Como exibir os atributos do objeto: ex. print(vars(P1))
+          - em caso de exibir um atributo especifico: print(p1.nome)
+
+AULA 2
+24/01/2026
+
+- Sobre classes: dá para adicionar atributos a um objeto depois dele ser criado;
+- O ideal é criar uma classe!!
+
+O método str()
+- Um método especial que define como o objeto aparece ao se impresso;
+- usa: def__str__(self) e return;
+- ele deixa o texto formatado.
+
+Herança:
+- Super classe;
+- Classes filhos;
+- Hierarquia: tem a super classe e as classes filhos herdam as características;
+- sobrescreve métodos;
+- reescreve valor.
+
+AULA 3
+31/01/2026
 
 

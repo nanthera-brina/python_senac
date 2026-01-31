@@ -56,26 +56,26 @@ D2 = Direção("Felipe", 30, "Secretário")
 
 ###### Criar objeto com base nas classes
 
-match classes: 
-    case Professor:
+tipo = input("Digite sua atribuição: ").title()
+
+match tipo: 
+    case "Professor":
         nome = input("Digite o nome do seu objeto: ")
         idade = int(input("Digite a idade do seu objeto: "))
         materia = input("Digite a matéria que seu objeto lenciona: ")
         P4 = Professor(nome, idade, materia)
         P4.apresentar()
 
-    case Aluno:
+    case "Aluno":
         nome = input("Digite o nome do seu objeto: ")
         idade = int(input("Digite a idade do seu objeto: "))
         serie = input("Digite a série que seu objeto está: ")
         A3 = Aluno(nome, idade, materia)
         A3.apresentar()
 
-    case Direção:
+    case "Direção":
         nome = input("Digite o nome do seu objeto: ")
         idade = int(input("Digite a idade do seu objeto: "))
         funcao = input("Digite a função que seu objeto exerce: ")
         D3 = Direção(nome, idade, materia)
         D3.apresentar()
-    
-classes = Professor
