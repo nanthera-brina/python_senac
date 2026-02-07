@@ -49,4 +49,6 @@ Herança:
 AULA 3
 31/01/2026
 
+- Sobrescrita: método da subclasse substitui o da classe da base
+- Permite polimorfismo
 
